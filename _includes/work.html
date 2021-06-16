@@ -1,0 +1,17 @@
+<div>
+    {% for project in site.data.work %}
+      <a href="{{ site.baseurl }}{{ project.perma }}">
+        <div>
+          <img src="{{ site.baseurl }}{{ project.img }}" alt="">
+          <div>
+            <h2>
+              {{ project.title }}
+            </h2>
+            <p>
+              {{ project.desc }}
+            </p>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>

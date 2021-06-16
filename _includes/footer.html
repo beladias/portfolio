@@ -1,0 +1,17 @@
+<footer>
+  <div>
+    <p>Let's talk?</p>
+    <nav>
+      {% for link in site.data.footer %}
+        <a 
+          href="{{ link.url }}"
+          class="main-link"
+          target="_blank"
+        >
+          {{ link.label }}
+        </a>
+      {% endfor %}
+    </nav>
+    <p>© 2021 Isabela Dias</p>
+  </div>
+</footer>

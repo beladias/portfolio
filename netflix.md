@@ -1,0 +1,19 @@
+---
+layout: page
+title: netflix
+permalink: /netflix
+---
+
+![Netflix cover]({{ site.baseurl }}/assets/img/netflix.png)
+
+It aimed to create a new functionality that was based on the pain of the users of this platform, in order to transform a nuisance into an opportunity.
+
+During the research part we found out that most people subscribe to more than one streaming service and rely a lot on suggestions from friends to choose what to watch. However the organization of the content they would like to watch at another time was very difficult to be done on Netflix and many used external platforms to get organized and thus ended up diverting Netflix's focus and considering content from other streaming services.
+
+We defined 3 main personas and created 4 HMW that aimed to generate greater personalization of My list, in a practical way and to allow greater interaction between platform users in this part of content indications, taking care to maintain privacy and not make Netflix a social network
+
+Our solution was to generate screens adjacent to the platform to allow the categorization and editing of personal lists, as well as the possibility of adding users as friends, following their lists and creating collaborative lists. To maintain privacy we give the user the option to make a list public or private and the only information they can access about other profiles is these public lists
+
+![Netflix cover]({{ site.baseurl }}/assets/img/netflix01.png)
+
+We tested this solution with 9 participants and the results were mostly positive, with only a few points of improvement raised as the best indication of the action to make the list collaborative.
