@@ -1,0 +1,22 @@
+---
+layout: default
+title: work
+---
+
+<div class="work_wrapper">
+    <div class="work_info">
+        <h1>Work</h1>
+        <p>A few samples of my work in the past 2 years.</p>
+    </div>
+    <section class="work">
+        <h2>
+            {% if page.tags contains "Netflix" %}
+            Netflix
+            {% elsif page.tags contains "Geotec" %}
+            Geotec
+            {% else %}
+            {% endif %}
+        </h2>
+        {{content}}
+    </section>
+</div>
