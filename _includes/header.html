@@ -8,7 +8,7 @@
         <ul>
           {% for link in site.data.header %}
           <li>
-            <a href="{{ site.baseurl }}{{ link.permalink }}">{{ link.title }}</a>
+            <a href="{{ site.baseurl }}{{ link.permalink }}" class="nav">{{ link.title }}</a>
           </li>
           {% endfor %}
       </ul>
