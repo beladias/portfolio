@@ -2,9 +2,11 @@
   desc: My lists
   img: /assets/img/netflix.png
   perma: /netflix
+  tag: netflix
 
 - title: Geotec
   desc: Preventing
   img: /assets/img/geotec.png
   perma: /geotec
+  tag: geotec
   
